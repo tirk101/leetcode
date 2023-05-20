@@ -15,5 +15,4 @@ class Solution(object):
         for i in str(num)[::-1]:
             cur.next = ListNode(int(i))
             cur = cur.next
-        print(root.next)
         return root.next
