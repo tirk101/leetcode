@@ -1,5 +1,10 @@
 class Solution(object):
     def isMatch(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: bool
+        """
         memoize = {}
         def recursive(i, j):
             if (i, j) in memoize: return memoize[(i, j)]
