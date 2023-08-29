@@ -1,5 +1,10 @@
 class Solution(object):
     def convert(self, s, numRows):
+        """
+        :type s: str
+        :type numRows: int
+        :rtype: str
+        """
         lst = ["" for i in range(numRows)]
         idx = 0
         step = 1
