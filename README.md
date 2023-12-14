@@ -1,3 +1,3 @@
 # leetcode
 
-Learn by myself, Develop algorithm design skill.
+Self Learning, Develop algorithm design skill.
